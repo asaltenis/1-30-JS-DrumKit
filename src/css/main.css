@@ -1,0 +1,45 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+	background: #ff9966;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.keys {
+	margin-top: 25vh;
+	text-align: center;
+}
+
+.key {
+	display: inline-block;
+	margin: 0 0.5vw;
+	width: 7.5%;
+	transition: all 0.1s ease;
+	border-radius: 0 25px 25px 25px;
+	box-sizing: border-box;
+	background: #ffe082;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2vw;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 1vw;
+	font-family: 'Nunito', sans-serif;
+}
+
+.playing {
+	background: #455a64;
+	transform: scale(0.9);
+}
